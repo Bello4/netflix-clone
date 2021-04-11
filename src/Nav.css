@@ -1,0 +1,56 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 35px;
+    z-index: 10;
+
+    display: flex;
+    justify-content: space-between;
+
+    /**Animation**/
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.nav__black {
+    background-color: #111;
+}
+
+.nav__logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.nav__bello {
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    border-radius: 50%;
+   cursor: pointer;
+}
+
+.nav__bello-content {
+    position: absolute;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 2px solid #006FED;
+}
+
+.comment {
+    position: relative;
+    font-weight: 400;
+    color: aliceblue;
+    top: 50%;
+    right: 200px;
+    width: 200px;
+    background-color: #0962f780;
+    padding-left: 11px;
+    border-radius: 8px;
+    opacity: 1;
+    transition: all .2s;
+}
+
